@@ -640,7 +640,7 @@ MonoBehaviour:
     dynamicAdjustmentTolerance: 1
     deliveryTimeEmaDuration: 2
   timeInterpolationGui: 0
-  GamePlayerPrefab: {fileID: 6258186009376981268, guid: 070dd1b9e702e6f408bdd65e5f778f77,
+  GamePlayerPrefab: {fileID: 5013092505660465096, guid: 0b21ffcac68607a48976fb1207780a35,
     type: 3}
 --- !u!4 &363109394
 Transform:
