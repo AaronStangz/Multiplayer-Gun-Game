@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 48564071413922501}
+  - component: {fileID: 2285701295072350280}
   m_Layer: 6
   m_Name: Rock
   m_TagString: Untagged
@@ -32,6 +33,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &2285701295072350280
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5075934435275596820}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.00000011920929, y: 0, z: -0.030256987}
+  m_Size: 0.6337109
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.09953539
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6809813176222504785}
+  m_Enabled: 1
 --- !u!1 &5370542091547631320
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,6 +63,7 @@ GameObject:
   - component: {fileID: 6999573715471756602}
   - component: {fileID: 407347107129454586}
   - component: {fileID: 6809813176222504785}
+  - component: {fileID: 6379576307069424312}
   m_Layer: 6
   m_Name: Cylinder.001
   m_TagString: Untagged
@@ -115,3 +136,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6379576307069424312
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5370542091547631320}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0060269455, y: 0.0057319677, z: 0.0063371076}
+  m_Center: {x: 0.0000000013969839, y: 0.00030257, z: 0}

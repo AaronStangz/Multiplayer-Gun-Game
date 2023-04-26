@@ -15,7 +15,7 @@ C:/Users/aaron/Documents/GitHub/Multiplayer-Gun-Game/Multiplayer Gun Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55618
+50367
 Successfully changed project path to: C:/Users/aaron/Documents/GitHub/Multiplayer-Gun-Game/Multiplayer Gun Game
 C:/Users/aaron/Documents/GitHub/Multiplayer-Gun-Game/Multiplayer Gun Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/aaron/Documents/GitHub/Multiplayer-Gun-Game/Multiplayer Gun Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 239.99 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 222.93 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -63,53 +63,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.024364 seconds.
+Registered in 0.020542 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 275.11 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 213.29 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.684 seconds
+- Completed reload, in  1.160 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1685ms)
-		BeginReloadAssembly (227ms)
+	ReloadAssembly (1161ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1086ms)
-			LoadAssemblies (215ms)
+		EndReloadAssembly (827ms)
+			LoadAssemblies (126ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
+			SetupTypeCache (189ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (652ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (507ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (275ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (213ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (262ms)
-				ProcessInitializeOnLoadMethodAttributes (90ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.030342 seconds.
+Registered in 0.026534 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\Multiplayer-Gun-Game\Multiplayer Gun Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\Multiplayer-Gun-Game\Multiplayer Gun Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 274.94 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 216.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mirror | mirror-networking.com | discord.gg/N9QVxbM
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -124,43 +124,43 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: Assets/Mirror/Editor/Welcome.cs Line: 18)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.577 seconds
+- Completed reload, in  2.759 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3578ms)
-		BeginReloadAssembly (241ms)
+	ReloadAssembly (2761ms)
+		BeginReloadAssembly (201ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (3046ms)
-			LoadAssemblies (274ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (2348ms)
+			LoadAssemblies (196ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (878ms)
+			SetupTypeCache (662ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (200ms)
-			SetupLoadedEditorAssemblies (1605ms)
+			RebuildScriptCaches (158ms)
+			SetupLoadedEditorAssemblies (1260ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (275ms)
-				BeforeProcessingInitializeOnLoad (279ms)
-				ProcessInitializeOnLoadAttributes (636ms)
-				ProcessInitializeOnLoadMethodAttributes (373ms)
-				AfterProcessingInitializeOnLoad (26ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (217ms)
+				BeforeProcessingInitializeOnLoad (239ms)
+				ProcessInitializeOnLoadAttributes (505ms)
+				ProcessInitializeOnLoadMethodAttributes (266ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 3.01 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6731 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 64 unused Assets / (3.8 MB). Loaded Objects now: 7171.
-Memory consumption went from 296.0 MB to 292.2 MB.
-Total: 8.887500 ms (FindLiveObjects: 0.810000 ms CreateObjectMapping: 0.469800 ms MarkObjects: 5.954700 ms  DeleteObjects: 1.651300 ms)
+Memory consumption went from 296.2 MB to 292.4 MB.
+Total: 7.063800 ms (FindLiveObjects: 0.758200 ms CreateObjectMapping: 0.384300 ms MarkObjects: 4.513700 ms  DeleteObjects: 1.405900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -174,25 +174,71 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1248341.879721 seconds.
-  path: Assets/Prefabs/Bullet.prefab
-  artifactKey: Guid(059f676187a56554facf383ef684ee3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(059f676187a56554facf383ef684ee3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cd103e717f4e1ac61874e4af9099b6') in 3.124931 seconds 
+  Time since last request: 2699.171888 seconds.
+  path: Assets/SandWallPiller.fbx
+  artifactKey: Guid(9784b0afd0903954d841a1a0dbc034c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SandWallPiller.fbx using Guid(9784b0afd0903954d841a1a0dbc034c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964d60e1376077bbd1f44e307cc6f810') in 2.617751 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Prefabs/SandWallPiller.prefab
-  artifactKey: Guid(982cbcb87b30a144ea3ad8d5263b46f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SandWallPiller.prefab using Guid(982cbcb87b30a144ea3ad8d5263b46f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdbfe8f32d648fce02397c450d328c8') in 0.041166 seconds 
+  Time since last request: 9.902593 seconds.
+  path: Assets/Models/SandWall1.fbx
+  artifactKey: Guid(2c78d6792dd7ba8479d943f69f115104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SandWall1.fbx using Guid(2c78d6792dd7ba8479d943f69f115104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fb9d9118544bea801da3fd53013d2c') in 0.108088 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Prefabs/SandWall 2.prefab
-  artifactKey: Guid(332717c1958b17844a8f5923ad4bf53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SandWall 2.prefab using Guid(332717c1958b17844a8f5923ad4bf53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35956cadfba6dc455d980d71cd5f0cd') in 0.044989 seconds 
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/SandWall2.fbx
+  artifactKey: Guid(34027c4e8457fae48811712150faaefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SandWall2.fbx using Guid(34027c4e8457fae48811712150faaefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93c3f96a0cafc0035ffc18b2fb7979f') in 0.084343 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Prefabs/Empty.prefab
-  artifactKey: Guid(f1fcfa56f8e213c4ca6cfb173e25b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Empty.prefab using Guid(f1fcfa56f8e213c4ca6cfb173e25b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690e02f25d24be65e712f78847e2f1ee') in 0.024616 seconds 
+  Time since last request: 739.959108 seconds.
+  path: Assets/Art/New Material 2.mat
+  artifactKey: Guid(cac482bfc737e0e45b09e3a8cde0021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/New Material 2.mat using Guid(cac482bfc737e0e45b09e3a8cde0021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcade65474a9aed67875ce20c0c2b043') in 0.055640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/New Material.mat
+  artifactKey: Guid(9f0856f4aad828846a9751ac43a27064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/New Material.mat using Guid(9f0856f4aad828846a9751ac43a27064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b292c50498604c5b8174bf1a4a23a12') in 0.042339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/New Material 3.mat
+  artifactKey: Guid(e61e041e3d4b1cb45879b45005527804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/New Material 3.mat using Guid(e61e041e3d4b1cb45879b45005527804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7df59e27e39f7bc6f70c0bf7bffb7b') in 0.872083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 274.012780 seconds.
+  path: Assets/Prefabs/SandBigWindow.prefab
+  artifactKey: Guid(86eade248662f524887e8a969e794dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SandBigWindow.prefab using Guid(86eade248662f524887e8a969e794dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18ee9d76ad6549376ff16197e6643a2') in 0.064415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Prefabs/SandSmallDoor.prefab
+  artifactKey: Guid(a1224a624ab2a8944a61f6829224a9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SandSmallDoor.prefab using Guid(a1224a624ab2a8944a61f6829224a9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c779a8c9cc1b38804ce6feb412f7eb') in 0.043411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Prefabs/SandSmallWindow.prefab
+  artifactKey: Guid(67fafc15c9903d646ae121fbb541b6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SandSmallWindow.prefab using Guid(67fafc15c9903d646ae121fbb541b6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed8a8c39926c1c8de9fa4983b75dac1') in 0.039986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/SandWall.prefab
+  artifactKey: Guid(9d5b6f81b19c31f4ebcec555e76251bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SandWall.prefab using Guid(9d5b6f81b19c31f4ebcec555e76251bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192cfdff048aa6edd8764d9c6fafcfd3') in 0.040849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Prefabs/SandWallCorner.prefab
+  artifactKey: Guid(3002ce6ce3c2fe440a1b9166c37b5d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SandWallCorner.prefab using Guid(3002ce6ce3c2fe440a1b9166c37b5d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ee6dd7088ec759a578330acff59431') in 0.040906 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

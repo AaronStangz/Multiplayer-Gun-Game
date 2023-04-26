@@ -85,27 +85,26 @@ public class PM : NetworkBehaviour
             Vector3 moveDirectionL = cameraTransform.TransformDirection(Vector3.left);
             Vector3 moveDirectionR = cameraTransform.TransformDirection(Vector3.right);
             Vector3 moveDirectionS = cameraTransform.TransformDirection(Vector3.back);
-            Vector3 moveDirectionJ = cameraTransform.TransformDirection(Vector3.up);
             float speed = Input.GetKey(KeyCode.LeftShift) ? SprintSpeed : WalkSpeed;
-            if (isOwned && Input.GetKey(KeyCode.W) && isGrounded)
+            if (isOwned && Input.GetKey(KeyCode.W))
             {
                 rb.MovePosition(rb.position + moveDirection * speed * Time.fixedDeltaTime);
             }
-            if (isOwned && Input.GetKey(KeyCode.A) && isGrounded)
+            if (isOwned && Input.GetKey(KeyCode.A))
             {
                 rb.MovePosition(rb.position + moveDirectionL * SideSpeed * Time.fixedDeltaTime);
             }
-            if (isOwned && Input.GetKey(KeyCode.D) && isGrounded)
+            if (isOwned && Input.GetKey(KeyCode.D))
             {
                 rb.MovePosition(rb.position + moveDirectionR * SideSpeed * Time.fixedDeltaTime);
             }
-            if (isOwned && Input.GetKey(KeyCode.S) && isGrounded)
+            if (isOwned && Input.GetKey(KeyCode.S))
             {
                 rb.MovePosition(rb.position + moveDirectionS * SideSpeed * Time.fixedDeltaTime * 2f);
             }
             if (isOwned && Input.GetKey(KeyCode.Space) && isGrounded)
             {
-                rb.MovePosition(rb.position + moveDirectionJ * jumpForce * Time.fixedDeltaTime );
+               rb.AddForce(transform.up * jumpForce);
             }
         }
     }
