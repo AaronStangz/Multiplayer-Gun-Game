@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5994801716625646307
+--- !u!1 &59315042970680498
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,47 +8,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6375409093719357529}
-  - component: {fileID: 8058588311983290364}
-  - component: {fileID: 5201987519552422710}
-  - component: {fileID: 4265818687965761088}
+  - component: {fileID: 4236588389300862318}
+  - component: {fileID: 6762269478662705799}
+  - component: {fileID: 183252468116396698}
+  - component: {fileID: 3276306022975957623}
   m_Layer: 6
-  m_Name: SandWallPiller
+  m_Name: Cube.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6375409093719357529
+--- !u!4 &4236588389300862318
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5994801716625646307}
+  m_GameObject: {fileID: 59315042970680498}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 145.38934, y: 145.38933, z: 726.9679}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5148524261260735495}
+  m_Father: {fileID: 5603878034794997448}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!33 &8058588311983290364
+--- !u!33 &6762269478662705799
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5994801716625646307}
-  m_Mesh: {fileID: 4493585093827132993, guid: 9784b0afd0903954d841a1a0dbc034c9, type: 3}
---- !u!23 &5201987519552422710
+  m_GameObject: {fileID: 59315042970680498}
+  m_Mesh: {fileID: -1550514412580984892, guid: 8d39ea2011745e94b8da924fc78d8955, type: 3}
+--- !u!23 &183252468116396698
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5994801716625646307}
+  m_GameObject: {fileID: 59315042970680498}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -62,7 +62,9 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  - {fileID: 2100000, guid: 6bc1d03ed554e9e4ebab5b5d357035ca, type: 2}
+  - {fileID: 2100000, guid: 9f0856f4aad828846a9751ac43a27064, type: 2}
+  - {fileID: 2100000, guid: cac482bfc737e0e45b09e3a8cde0021e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,20 +86,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4265818687965761088
-BoxCollider:
+--- !u!64 &3276306022975957623
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5994801716625646307}
+  m_GameObject: {fileID: 59315042970680498}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.02, y: 0.020000005, z: 0.021032797}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &7627378272118129226
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1550514412580984892, guid: 8d39ea2011745e94b8da924fc78d8955, type: 3}
+--- !u!1 &9219957624553080068
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -105,27 +108,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5148524261260735495}
+  - component: {fileID: 5603878034794997448}
   m_Layer: 6
-  m_Name: SandWallPiller
+  m_Name: SandBigWindow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5148524261260735495
+--- !u!4 &5603878034794997448
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7627378272118129226}
+  m_GameObject: {fileID: 9219957624553080068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6375409093719357529}
+  - {fileID: 4236588389300862318}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

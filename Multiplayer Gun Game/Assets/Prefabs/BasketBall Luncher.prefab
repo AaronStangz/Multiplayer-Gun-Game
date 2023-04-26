@@ -64,7 +64,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: -6478536213147159724, guid: aebfd70d8a2920e4590fc8aa56b0286d, type: 3}
   - {fileID: -8274133419916619345, guid: aebfd70d8a2920e4590fc8aa56b0286d, type: 3}
-  - {fileID: -3846018093981099296, guid: aebfd70d8a2920e4590fc8aa56b0286d, type: 3}
+  - {fileID: 2100000, guid: 6374c30898f9928439fab8089537c906, type: 2}
   - {fileID: 4874126678125670354, guid: aebfd70d8a2920e4590fc8aa56b0286d, type: 3}
   - {fileID: -6922793697723135513, guid: aebfd70d8a2920e4590fc8aa56b0286d, type: 3}
   - {fileID: -2813467912831258332, guid: aebfd70d8a2920e4590fc8aa56b0286d, type: 3}
@@ -217,7 +217,6 @@ MonoBehaviour:
   playerRb: {fileID: 0}
   recoilForce: 10
   recoilOnCam: -90
-  Camera: {fileID: 0}
   attackPoint: {fileID: 1048291613822212404}
   cameraTransform: {fileID: 0}
   muzzleFlash: {fileID: 6647074793076815829}

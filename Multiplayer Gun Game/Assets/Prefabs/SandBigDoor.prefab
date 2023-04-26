@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5975178485017506365
+--- !u!1 &5662289292461808583
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,47 +8,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6460353742208641159}
-  - component: {fileID: 7928607026492024610}
-  - component: {fileID: 5326884645452239848}
-  - component: {fileID: 6786204447477026657}
+  - component: {fileID: 2061660303828965961}
+  - component: {fileID: 6035249819037542010}
+  - component: {fileID: 4734789085043424907}
+  - component: {fileID: 259286097948047321}
   m_Layer: 6
-  m_Name: SandWall1
+  m_Name: Cube.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6460353742208641159
+--- !u!4 &2061660303828965961
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5975178485017506365}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_GameObject: {fileID: 5662289292461808583}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6786204445784972864}
+  m_Father: {fileID: 2945376199525067355}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!33 &7928607026492024610
+--- !u!33 &6035249819037542010
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5975178485017506365}
-  m_Mesh: {fileID: -5495902117074765545, guid: 2c78d6792dd7ba8479d943f69f115104, type: 3}
---- !u!23 &5326884645452239848
+  m_GameObject: {fileID: 5662289292461808583}
+  m_Mesh: {fileID: 2212009239438826721, guid: 8d39ea2011745e94b8da924fc78d8955, type: 3}
+--- !u!23 &4734789085043424907
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5975178485017506365}
+  m_GameObject: {fileID: 5662289292461808583}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -62,9 +62,8 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6478536213147159724, guid: 2c78d6792dd7ba8479d943f69f115104, type: 3}
-  - {fileID: -876546973899608171, guid: 2c78d6792dd7ba8479d943f69f115104, type: 3}
-  - {fileID: -3846018093981099296, guid: 2c78d6792dd7ba8479d943f69f115104, type: 3}
+  - {fileID: 2100000, guid: 6bc1d03ed554e9e4ebab5b5d357035ca, type: 2}
+  - {fileID: 2100000, guid: 9f0856f4aad828846a9751ac43a27064, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -86,20 +85,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6786204447477026657
-BoxCollider:
+--- !u!64 &259286097948047321
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5975178485017506365}
+  m_GameObject: {fileID: 5662289292461808583}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.19999999, y: 0.023339152, z: 0.14195704}
-  m_Center: {x: 0.000000007450581, y: 0, z: 0.000053372245}
---- !u!1 &6786204445784972865
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2212009239438826721, guid: 8d39ea2011745e94b8da924fc78d8955, type: 3}
+--- !u!1 &7387710776944389721
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,27 +107,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6786204445784972864}
+  - component: {fileID: 2945376199525067355}
   m_Layer: 6
-  m_Name: SandWall 1
+  m_Name: SandBigDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6786204445784972864
+--- !u!4 &2945376199525067355
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6786204445784972865}
+  m_GameObject: {fileID: 7387710776944389721}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6460353742208641159}
+  - {fileID: 2061660303828965961}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

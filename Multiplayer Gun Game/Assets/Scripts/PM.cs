@@ -74,12 +74,6 @@ public class PM : NetworkBehaviour
             // Check if the player is grounded
             isGrounded = Physics.Raycast(transform.position, Vector3.down, 1.1f, groundLayer);
         }
-
-        if (isOwned && Input.GetKeyDown(KeyCode.Space) && isGrounded)
-        {
-            // Jump
-            rb.AddForce(Vector3.up * jumpForce);
-        }
     }
 
     private void FixedUpdate()
@@ -90,6 +84,8 @@ public class PM : NetworkBehaviour
             Vector3 moveDirection = cameraTransform.TransformDirection(Vector3.forward);
             Vector3 moveDirectionL = cameraTransform.TransformDirection(Vector3.left);
             Vector3 moveDirectionR = cameraTransform.TransformDirection(Vector3.right);
+            Vector3 moveDirectionS = cameraTransform.TransformDirection(Vector3.back);
+            Vector3 moveDirectionJ = cameraTransform.TransformDirection(Vector3.up);
             float speed = Input.GetKey(KeyCode.LeftShift) ? SprintSpeed : WalkSpeed;
             if (isOwned && Input.GetKey(KeyCode.W) && isGrounded)
             {
@@ -105,12 +101,19 @@ public class PM : NetworkBehaviour
             }
             if (isOwned && Input.GetKey(KeyCode.S) && isGrounded)
             {
-                rb.MovePosition(rb.position + moveDirectionR * SideSpeed * Time.fixedDeltaTime * 2f);
+                rb.MovePosition(rb.position + moveDirectionS * SideSpeed * Time.fixedDeltaTime * 2f);
+            }
+            if (isOwned && Input.GetKey(KeyCode.Space) && isGrounded)
+            {
+                rb.MovePosition(rb.position + moveDirectionJ * jumpForce * Time.fixedDeltaTime );
             }
         }
     }
     public void SpawnPosition()
     {
-        transform.position = new Vector3(Random.Range(SpawnX, Spawnz), 0.8f, Random.Range(-15, 7));
+        if (isOwned)
+        {
+             transform.position = new Vector3(Random.Range(SpawnX, Spawnz), 0.8f, Random.Range(-15, 7));
+        }
     }
 }

@@ -61,8 +61,8 @@ public class Gun: MonoBehaviour
         if(Mid != null)
         {
 
-            transform.position = new Vector3(Mathf.LerpUnclamped(transform.position.x, Mid.position.x, Time.deltaTime * 5), Mathf.LerpUnclamped(transform.position.y, Mid.position.y, Time.deltaTime * 5), Mid.position.z);
-            transform.rotation = Mid.rotation;
+           // transform.position = new Vector3(Mathf.LerpUnclamped(transform.position.x, Mid.position.x, Time.deltaTime * 5), Mathf.LerpUnclamped(transform.position.y, Mid.position.y, Time.deltaTime * 5), Mid.position.z);
+            //transform.rotation = Mid.rotation;
         }
         if(playerRb != null)
         {

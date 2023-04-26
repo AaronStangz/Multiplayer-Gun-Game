@@ -243,8 +243,8 @@ MonoBehaviour:
   syncDirection: 1
   syncMode: 0
   syncInterval: 0.1
-  SpawnX: -10
-  Spawnz: 10
+  SpawnX: -20
+  Spawnz: 20
   PlayerModel: {fileID: 5721389988348847734}
   CamHolder: {fileID: 4457185836556588896}
   WalkSpeed: 10
@@ -255,7 +255,7 @@ MonoBehaviour:
   cameraDistance: 5
   cameraTransform: {fileID: 2703931407076938658}
   Camera: {fileID: 6373861235909583579}
-  jumpForce: 500
+  jumpForce: 100
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
