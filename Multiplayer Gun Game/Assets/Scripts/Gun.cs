@@ -29,22 +29,20 @@ public class Gun: MonoBehaviour
 
     [Header("Bools")]
     bool shooting, readyToShoot, reloading;
+    PickUp pickUpScript;
+    public bool wEquipped;
 
     [Header("Ref")]
     public Transform attackPoint;
-    Vector3 startPos;
     public Transform cameraTransform;
+    public Transform Mid;
+    public Rigidbody GunRb;
 
     [Header("Graphics")]
     public GameObject muzzleFlash;
     public TextMeshProUGUI ammunitionDisplay;
-
-    [Header("Lerp")]
-    [SerializeField]
-    public Transform Mid;
-    [SerializeField]
-    float Spring = 0.05f, LerpSpeed = 1f;
-    float RSpring = 0.05f, RLerpSpeed = 1f;
+    public TextMeshProUGUI rToReload;
+    public GameObject rToreloadText;
 
 
     //bug fixing :D
@@ -52,31 +50,41 @@ public class Gun: MonoBehaviour
 
     private void Awake()
     {
+        playerRb = GetComponent<Rigidbody>();
         bulletsLeft = magazineSize;
         readyToShoot = true;
     }
 
     private void Update()
     {
-        if(Mid != null)
+        if (PickUp.wSlotFull == true)
         {
-
-           // transform.position = new Vector3(Mathf.LerpUnclamped(transform.position.x, Mid.position.x, Time.deltaTime * 5), Mathf.LerpUnclamped(transform.position.y, Mid.position.y, Time.deltaTime * 5), Mid.position.z);
-            //transform.rotation = Mid.rotation;
+            gameObject.transform.position = Mid.transform.position;
         }
-        if(playerRb != null)
+
+        if (playerRb != null)
         {
             MyInput();
             if (ammunitionDisplay != null)
-                ammunitionDisplay.SetText(bulletsLeft / bulletsPerTap + " / " + magazineSize / bulletsPerTap);
+                ammunitionDisplay.SetText("Ammo " + bulletsLeft / bulletsPerTap + " / " + magazineSize / bulletsPerTap);
         }
+        
+        if(bulletsLeft == 0 && !reloading)
+        {
+            rToreloadText.SetActive(true);
+        }
+        if(reloading)
+        {
+            rToreloadText.SetActive(false);
+        }
+       
     }
     private void MyInput()
     {
-
+        if(PickUp.wSlotFull == true)
+        {
         if (allowButtonHold) shooting = Input.GetKey(KeyCode.Mouse0);
         else shooting = Input.GetKeyDown(KeyCode.Mouse0);
-
 
         if (Input.GetKeyDown(KeyCode.R) && bulletsLeft < magazineSize && !reloading) Reload();
 
@@ -84,11 +92,11 @@ public class Gun: MonoBehaviour
 
         if (readyToShoot && shooting && !reloading && bulletsLeft > 0)
         {
-
             bulletsShot = 0;
 
             Shoot();
-           
+        }
+
         }
 
     }

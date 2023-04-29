@@ -15,7 +15,7 @@ C:/Users/aaron/Documents/GitHub/Multiplayer-Gun-Game/Multiplayer Gun Game
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-50367
+62337
 Successfully changed project path to: C:/Users/aaron/Documents/GitHub/Multiplayer-Gun-Game/Multiplayer Gun Game
 C:/Users/aaron/Documents/GitHub/Multiplayer-Gun-Game/Multiplayer Gun Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/aaron/Documents/GitHub/Multiplayer-Gun-Game/Multiplayer Gun Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 229.72 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 284.41 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -63,53 +63,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.018062 seconds.
+Registered in 0.018377 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 217.93 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 214.05 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.187 seconds
+- Completed reload, in  1.267 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1188ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (1268ms)
+		BeginReloadAssembly (162ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (851ms)
-			LoadAssemblies (126ms)
+		EndReloadAssembly (870ms)
+			LoadAssemblies (158ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (198ms)
+			SetupTypeCache (213ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
+			RebuildScriptCaches (46ms)
 			SetupLoadedEditorAssemblies (521ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (218ms)
+				RefreshPlugins (214ms)
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.021143 seconds.
+Registered in 0.031711 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\Multiplayer-Gun-Game\Multiplayer Gun Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\Multiplayer-Gun-Game\Multiplayer Gun Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\Multiplayer-Gun-Game\Multiplayer Gun Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 208.40 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 301.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mirror | mirror-networking.com | discord.gg/N9QVxbM
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -124,43 +124,43 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 (Filename: Assets/Mirror/Editor/Welcome.cs Line: 18)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.510 seconds
+- Completed reload, in  3.804 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2511ms)
-		BeginReloadAssembly (176ms)
+	ReloadAssembly (3805ms)
+		BeginReloadAssembly (204ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (2138ms)
-			LoadAssemblies (170ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (3325ms)
+			LoadAssemblies (217ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (611ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (146ms)
-			SetupLoadedEditorAssemblies (1144ms)
+			SetupTypeCache (753ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (232ms)
+			SetupLoadedEditorAssemblies (2041ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (209ms)
-				BeforeProcessingInitializeOnLoad (224ms)
-				ProcessInitializeOnLoadAttributes (459ms)
-				ProcessInitializeOnLoadMethodAttributes (225ms)
-				AfterProcessingInitializeOnLoad (17ms)
+				RefreshPlugins (302ms)
+				BeforeProcessingInitializeOnLoad (268ms)
+				ProcessInitializeOnLoadAttributes (1153ms)
+				ProcessInitializeOnLoadMethodAttributes (284ms)
+				AfterProcessingInitializeOnLoad (22ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.99 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6731 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (3.8 MB). Loaded Objects now: 7171.
-Memory consumption went from 296.2 MB to 292.4 MB.
-Total: 7.206900 ms (FindLiveObjects: 0.853600 ms CreateObjectMapping: 0.450700 ms MarkObjects: 4.600400 ms  DeleteObjects: 1.300000 ms)
+Unloading 6765 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (3.8 MB). Loaded Objects now: 7195.
+Memory consumption went from 297.5 MB to 293.7 MB.
+Total: 7.741600 ms (FindLiveObjects: 0.986400 ms CreateObjectMapping: 0.487300 ms MarkObjects: 4.748900 ms  DeleteObjects: 1.516800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -174,65 +174,127 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3726.931208 seconds.
-  path: Assets/Prefabs/SandBigDoor.prefab
-  artifactKey: Guid(12b211785d867ac429d353c293d4cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SandBigDoor.prefab using Guid(12b211785d867ac429d353c293d4cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfaaef54c7755b25a454878b99556f4a') in 2.580141 seconds 
+  Time since last request: 199316.422882 seconds.
+  path: Assets/Scripts/PickUp.cs
+  artifactKey: Guid(0d6891a155059614b8fa50b4e5f00b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PickUp.cs using Guid(0d6891a155059614b8fa50b4e5f00b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab186df6c8931022750ab77f873492b') in 0.057942 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034079 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\Multiplayer-Gun-Game\Multiplayer Gun Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\Multiplayer-Gun-Game\Multiplayer Gun Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.593 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2594ms)
+		BeginReloadAssembly (271ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (2120ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (711ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (144ms)
+			SetupLoadedEditorAssemblies (890ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (200ms)
+				ProcessInitializeOnLoadAttributes (568ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6446 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (3.7 MB). Loaded Objects now: 7198.
+Memory consumption went from 279.9 MB to 276.1 MB.
+Total: 7.230900 ms (FindLiveObjects: 0.830700 ms CreateObjectMapping: 0.499500 ms MarkObjects: 4.422700 ms  DeleteObjects: 1.476400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.907232 seconds.
-  path: Assets/Models/SandSetPreSet.fbx
-  artifactKey: Guid(8d39ea2011745e94b8da924fc78d8955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/SandSetPreSet.fbx using Guid(8d39ea2011745e94b8da924fc78d8955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2da28a571db6245e1a5e0f88741abd') in 0.836793 seconds 
+  Time since last request: 67.838235 seconds.
+  path: Assets/Prefabs/PlayerObject 1.prefab
+  artifactKey: Guid(0b21ffcac68607a48976fb1207780a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerObject 1.prefab using Guid(0b21ffcac68607a48976fb1207780a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64db2e736616b8873cd75dadf7bab3b') in 2.951123 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 329.347404 seconds.
-  path: Assets/Prefabs/SandBigDoor.prefab
-  artifactKey: Guid(12b211785d867ac429d353c293d4cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SandBigDoor.prefab using Guid(12b211785d867ac429d353c293d4cd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11dd00afcae84dddcfd3d9bcca561f9') in 0.044186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Prefabs/SandSmallDoor.prefab
-  artifactKey: Guid(a1224a624ab2a8944a61f6829224a9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SandSmallDoor.prefab using Guid(a1224a624ab2a8944a61f6829224a9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e70baef484f0c55701e912c63d1ec7') in 0.033997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Prefabs/SandSmallWindow.prefab
-  artifactKey: Guid(67fafc15c9903d646ae121fbb541b6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SandSmallWindow.prefab using Guid(67fafc15c9903d646ae121fbb541b6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4e9f76469d94ba1199613f748c01da') in 0.035334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Prefabs/SandWall.prefab
-  artifactKey: Guid(9d5b6f81b19c31f4ebcec555e76251bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SandWall.prefab using Guid(9d5b6f81b19c31f4ebcec555e76251bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0b3360b9be2fc5f44f3a227383a935') in 0.032203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Prefabs/SandWallCorner.prefab
-  artifactKey: Guid(3002ce6ce3c2fe440a1b9166c37b5d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SandWallCorner.prefab using Guid(3002ce6ce3c2fe440a1b9166c37b5d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9875d8160d0aa1db891b563b61f76ed') in 0.034806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.948738 seconds.
-  path: Assets/Prefabs/Barrel.prefab
-  artifactKey: Guid(d64e4646920c2e5498f1c65946cb6386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Barrel.prefab using Guid(d64e4646920c2e5498f1c65946cb6386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685dfc9f3e292def99f7f253ac43c90b') in 0.046140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Prefabs/Palit.prefab
-  artifactKey: Guid(8270cfec390650642a97e63ca43d16b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Palit.prefab using Guid(8270cfec390650642a97e63ca43d16b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27efdc251ef50abe4341a9a03050424') in 0.045022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/Prefabs/Wall.prefab
-  artifactKey: Guid(26595810b967d2c43aebf60af9dd3a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Wall.prefab using Guid(26595810b967d2c43aebf60af9dd3a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bfdbd3bfe6f274ea409797e2ec39cd') in 0.043289 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.046733 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\Multiplayer-Gun-Game\Multiplayer Gun Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aaron\Documents\GitHub\Multiplayer-Gun-Game\Multiplayer Gun Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.518 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3522ms)
+		BeginReloadAssembly (445ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (77ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (133ms)
+		EndReloadAssembly (2840ms)
+			LoadAssemblies (236ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (895ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (185ms)
+			SetupLoadedEditorAssemblies (1182ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (243ms)
+				ProcessInitializeOnLoadAttributes (791ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6446 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (3.8 MB). Loaded Objects now: 7318.
+Memory consumption went from 286.9 MB to 283.2 MB.
+Total: 8.623200 ms (FindLiveObjects: 0.813900 ms CreateObjectMapping: 0.373600 ms MarkObjects: 5.299200 ms  DeleteObjects: 2.134900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
