@@ -201,7 +201,7 @@ MonoBehaviour:
   allowButtonHold: 0
   playerRb: {fileID: 0}
   recoilForce: 20
-  recoilOnCam: -90
+  recoilOnCam: -20
   wEquipped: 0
   attackPoint: {fileID: 1048291613822212404}
   cameraTransform: {fileID: 0}

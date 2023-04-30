@@ -162,12 +162,37 @@ MonoBehaviour:
   allowButtonHold: 1
   playerRb: {fileID: 0}
   recoilForce: 2
-  recoilOnCam: 0
+  recoilOnCam: -5
   wEquipped: 0
   attackPoint: {fileID: 6342546246580806776}
   cameraTransform: {fileID: 0}
   Mid: {fileID: 0}
   GunRb: {fileID: 6342546246137101851}
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.9906138
+      outSlope: -0.9906138
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.0069077
+      value: 0.00254336
+      inSlope: -0.9906138
+      outSlope: -0.9906138
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  shakeDuration: 1
   muzzleFlash: {fileID: 8058551325065745603, guid: ccd63c87460351c48b399d084f441f21,
     type: 3}
   ammunitionDisplay: {fileID: 0}

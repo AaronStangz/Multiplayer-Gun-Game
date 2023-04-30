@@ -38,6 +38,10 @@ public class Gun: MonoBehaviour
     public Transform Mid;
     public Rigidbody GunRb;
 
+    [Header("CamShake")]
+    public AnimationCurve curve;
+    public float shakeDuration = 1f;
+
     [Header("Graphics")]
     public GameObject muzzleFlash;
     public TextMeshProUGUI ammunitionDisplay;
@@ -140,6 +144,8 @@ public class Gun: MonoBehaviour
             allowInvoke = false;
 
             playerRb.AddForce(-directionWithSpread.normalized * recoilForce, ForceMode.Impulse);
+            StartCoroutine(CamShake());
+           // Camera.main.transform.rotation = Quaternion.Euler(recoilOnCam, 0, 0);
         }
 
         if (bulletsShot < bulletsPerTap && bulletsLeft > 0)
@@ -160,5 +166,19 @@ public class Gun: MonoBehaviour
     {
         bulletsLeft = magazineSize;
         reloading = false;
+    }
+
+    IEnumerator CamShake()
+    {
+        Vector3 startPosition = cameraTransform.transform.position;
+        float elapsedTime = 0f;
+
+        while (elapsedTime < shakeDuration)
+        {
+            elapsedTime += Time.deltaTime;
+            float streangth = curve.Evaluate(elapsedTime / shakeDuration);
+            transform.position = startPosition + Random.insideUnitSphere * streangth;
+            yield return null;
+        }
     }
 }
