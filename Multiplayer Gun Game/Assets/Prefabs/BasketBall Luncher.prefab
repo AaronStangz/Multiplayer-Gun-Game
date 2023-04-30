@@ -207,7 +207,8 @@ MonoBehaviour:
   cameraTransform: {fileID: 0}
   Mid: {fileID: 0}
   GunRb: {fileID: 5268628305952658228}
-  muzzleFlash: {fileID: 6647074793076815829}
+  muzzleFlash: {fileID: 8967918930601841694, guid: 497ef2b2c051bd745b3033c7c76fce9b,
+    type: 3}
   ammunitionDisplay: {fileID: 0}
   rToReload: {fileID: 0}
   rToreloadText: {fileID: 0}
